@@ -15,8 +15,10 @@
     "@remix-run/react": "^2.12.0",
     "@remix-run/serve": "^2.12.0",
     "isbot": "^4.1.0",
+    "nuvo-react": "^2.13.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remix-utils": "^7.6.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.0",

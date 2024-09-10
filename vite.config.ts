@@ -10,6 +10,12 @@ export default defineConfig({
         v3_relativeSplatPath: true,
         v3_throwAbortReason: true,
       },
+      routes(defineRoutes) {
+        return defineRoutes((route) => {
+          route("/", "./pages/index.tsx", { index: true });
+          route("/nuvo/*", "./pages/nuvo.tsx");
+        });
+      },
     }),
     tsconfigPaths(),
   ],
